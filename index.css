@@ -1,6 +1,7 @@
 html{
+    background-color: #000000;
     font-family: sans-serif;
-    color: green;
+    color: red;
 }
     .pomodoro-estimate{
   font-weight: bold;
@@ -29,4 +30,10 @@ html{
 li{
   padding: 5px;
   margin-bottom:10px;
+}
+h2{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 32px;
+  margin: 20px 0px;
 }
