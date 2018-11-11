@@ -1,15 +1,19 @@
 <html>
   <head>
     <title>Todo List Application</title>
-    <link rel="stylesheet" href="index.css" type="text/css"/>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
   </head>
   <body>
-    <h1>Remember to do the work on</h1>
-    <ul>
+    <h1>
+      <img class="company-logo" src="https://1000logos.net/wp-content/uploads/2017/07/Deadpool-Logo.png" ></img>
+      Remember to work on</h1>
+    <ul class="card">
       <li>
         <input type="checkbox">
         <a href="show.html">Make the curriculum</a>
-        <span>6 pomodoros</span>
+        <span class= "pomodoro-estimate"> 4 promodoro</span>
       </li>
       <li>
         <input type="checkbox">
@@ -44,7 +48,7 @@
     </ul>
         <li>
   <input type="checkbox">
-  do the work
+  finish
   <span class="pomodoro-estimate">3 Pomodoros</span>
 </li>
     <input type="text" placeholder="Add new todo..."/>
